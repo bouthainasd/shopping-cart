@@ -1,0 +1,54 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: rgb(71, 83, 83);
+    }
+    h1{
+    text-align: center;
+    color: rgb(69, 69, 248);
+    }
+
+    #cart {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .cart-item {
+      border: 1px solid #ddd;
+      margin: 10px;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .cart-item span{
+        text-align: center;
+        color: rgb(40, 40, 107);
+        
+    }
+
+    .item-actions {
+      display: flex;
+      align-items: center;
+      font-size: 50px;
+    }
+
+    .quantity {
+      margin: 0 10px;
+    }
+
+    .like-btn {
+      cursor: pointer;
+      color: grey;
+    }
+
+    .like-btn.liked {
+      color: red;
+    }
+
+    #total-price {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  
